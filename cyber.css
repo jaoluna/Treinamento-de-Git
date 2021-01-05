@@ -1,0 +1,129 @@
+npm install --save normalize.css
+*{
+    box-sizing : border-box;
+}
+body{
+    margin:0px;
+    background-color: #000;
+}
+
+#logo{
+    background-color: #000;
+}
+.botao{
+    position:absolute;
+    color:#FF0022;
+    top:32%;
+    left: 10.5%;
+    font-family: "Permanent Marker", cursive;
+    font-size:200%;
+}
+.botao2{
+    position:absolute;
+    color:#ccc;
+    top:31%;
+    left: 46.5%;
+    font-family: 'Bebas Neue', cursive;
+    font-size:244%;
+    font-style:italic;
+}    
+.botao3{
+    position:absolute;
+    color:#f08290;
+    top:32%;
+    right: 10.5%;
+    font-family: 'IBM Plex Sans', cursive;
+    font-size:200%;
+}
+.video_position{
+    margin-top:12.7%
+    
+}
+video{
+    border-radius:15px;
+}
+@media only screen and (max-width:1000px){
+    .response{
+        width:1%;
+        
+    }
+} 
+.teste{
+    position:absolute;
+    top:146%;
+    right:7%;
+    left:7%;
+}
+#samurai{
+    position:absolute;
+    color:#FF0022;
+    top: 103%;
+    right:32%;
+    font-family:'Permanent Marker', cursive;
+    font-size:1000%;
+}
+.texto{
+     text-align:justify;
+     color:#FF0022;
+     font-family: 'Permanent Marker', cursive;
+}
+.teste2{
+     position:absolute;
+     top:300%;
+     right:7%;
+     left:7%;
+}
+#ojogo{
+     position:absolute;
+     color:#d1c300;
+     top: 250%;
+     right:19%;
+     font-family:'Bebas Neue', cursive;
+     font-size:1000%;
+}
+.texto2{
+     text-align:justify;
+     color:#d1c300;
+     font-family: 'Bebas Neue', cursive;
+}
+.teste3{
+    position:absolute;
+    top:450%;
+    right:7%;
+    left:7%;
+}
+#aempresa{
+    position:absolute;
+    color:#dbdbd5;
+    top: 400%;
+    right:29%;
+    font-family:'IBM Plex Sans', cursive;
+    font-size:1000%;
+}
+.texto3{
+    text-align:justify;
+    color:#dbdbd5;
+    font-family: 'IBM Plex Sans', cursive;
+}
+
+.volt{
+    position:fixed;
+    width:6%;
+    height:auto;
+    bottom:5%;
+    right:1%;
+    border-radius:100px;
+    
+}
+.textosamu{
+    position:fixed;
+    font-family:"Permanent Marker", cursive;
+    right:1.7%;
+    bottom:2.3%;
+    text-align:justify;
+    font-size:60%;
+    color:#FF0022;             
+}
+
+
+
